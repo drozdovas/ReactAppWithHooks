@@ -1,0 +1,40 @@
+.loading-modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  text-align: justify;
+}
+
+.loading-modal-wrapper .modal {
+  z-index: 100;
+  background: white;
+  position: relative;
+  margin: 1.75rem auto;
+  border-radius: 0.6rem;
+  max-width: 500px;
+  padding: 2rem;
+  border: 1px solid #d10f21;
+  text-align: center;
+  color: #2a619a;
+}
+
+.loading-modal-wrapper .loader {
+  margin: 0 auto;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

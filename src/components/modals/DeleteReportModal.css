@@ -1,0 +1,79 @@
+.delete-report-modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  text-align: justify;
+}
+
+.delete-report-modal-wrapper .modal {
+  z-index: 100;
+  background: white;
+  position: relative;
+  margin: 1.75rem auto;
+  border-radius: 0.6rem;
+  max-width: 500px;
+  padding: 1rem;
+  border: 1px solid #d10f21;
+}
+
+.delete-report-modal-wrapper .modal-header {
+  border-bottom: 1px solid lightgray;
+}
+
+.delete-report-modal-wrapper textarea {
+  width: 100%;
+  color: #3d73a5;
+  resize: none;
+}
+
+.delete-report-modal-wrapper .modal-buttons {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end; 
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.delete-report-modal-wrapper .modal-yes-button {
+  background-color: #e8f4ff;
+}
+
+.delete-report-modal-wrapper .modal-no-button {
+  background-color: white;
+  border: 1px solid #4076a7;
+}
+
+.delete-report-modal-wrapper .modal-yes-button:hover {
+  background-color: white;
+  border: 1px solid #4076a7;
+}
+
+.delete-report-modal-wrapper .modal-no-button:hover {
+  background-color: #e8f4ff;
+}
+
+.delete-report-modal-wrapper button {
+  cursor: pointer;
+  color: #2c659d;
+  border: none;
+  border-radius: 3px;
+  padding: .3rem 1rem;
+  margin-left: .5rem;
+  width: 6rem;
+}
+
+.delete-report-modal-wrapper .button-default {
+  background: #247BA0;
+  color: #fff;
+}
